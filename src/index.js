@@ -41,5 +41,5 @@ router.get("/coinbase/ETH/sell", coinBase.ethSell); //Get the Sell price of Ethe
 router.get("/binance/BTC/buysell", binance.btcBuySell); //Get the Buy and Sell price of Bitcoin
 router.get("/binance/ETH/buysell", binance.ethBuySell); //Get the Buy and Sell price of Etherium
 
-router.get("/BTC", common.getBTC);
-router.get("/ETH", common.getETH);
+router.get("/BTC", common.getBTC); //Get the buy and sell prices of BTC from all the sources.
+router.get("/ETH", common.getETH); //Get the buy and sell prices of ETH from all the sources.
