@@ -1,7 +1,8 @@
 # cryptoAppServer
 
 This is a node-express server.
-endpoint: https://3eqes.sse.codesandbox.io (BASEURL)
+
+* endpoint: https://3eqes.sse.codesandbox.io (BASEURL)
 
 
 ### Make sure you have node is installed on your machine before starting the project.
