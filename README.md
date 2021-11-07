@@ -3,10 +3,20 @@
 This is a node-express server.
 endpoint: https://3eqes.sse.codesandbox.io (BASEURL)
 
+
+### Make sure you have node is installed on your machine before starting the project.
+
 Start the server:
 
-1. npm install
-1. npm start
+1) First install all the dependencies by running command within this directory.
+ ```bash
+ npm install
+ ```
+
+2) To start the server, run the following command: 
+```bash
+nodemon server.js
+```
 
 API
 
