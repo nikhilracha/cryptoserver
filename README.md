@@ -20,22 +20,22 @@ nodemon server.js
 
 API
 
-/api/BTC - returns the buy and sell prices of BTC from all sources
-/api/ETH - returnsn the buy and sell prices of ETH from all sources
+* /api/BTC - returns the buy and sell prices of BTC from all sources
+* /api/ETH - returnsn the buy and sell prices of ETH from all sources
 
 Additional end points:
 
 Coinbase:
 
-/api/coinbase/BTC/buy - returns the Buy price of Bitcoin from coinbase exchange
-/api/coinbase/BTC/sell - returns the Sell price of Bitcoin from coinbase exchange
-/api/coinbase/ETH/buy - returns the Buy price of Etherium from coinbase exchange
-/api/coinbase/ETH/sell - returns the Sell price of Etherium from coinbase exchange
+* /api/coinbase/BTC/buy - returns the Buy price of Bitcoin from coinbase exchange
+* /api/coinbase/BTC/sell - returns the Sell price of Bitcoin from coinbase exchange
+* /api/coinbase/ETH/buy - returns the Buy price of Etherium from coinbase exchange
+* /api/coinbase/ETH/sell - returns the Sell price of Etherium from coinbase exchange
 
 Binance:
 
-/api/binance/BTC/buysell - returns the Buy/Sell price of Bitcoin from binance exchange
-/api/binance/ETH/buysell - returns the Buy/Sell price of Etherium from binance exchange
+* /api/binance/BTC/buysell - returns the Buy/Sell price of Bitcoin from binance exchange
+* /api/binance/ETH/buysell - returns the Buy/Sell price of Etherium from binance exchange
 
 Markets/Exchange sources used for this server:
 
